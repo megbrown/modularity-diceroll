@@ -1,12 +1,20 @@
 "use strict";
 
-module.exports.diceObj = {};
+const randomInt = require('./math.js');
 
-diceObj.toDiceNotation = ({sides, count}) => {
-	let diceNotation = `${sides}d${count}`;
-};
+module.exports = {
 
-diceObj.roll = (diceNotation) => {
-	// accept a dice notation String and produce a random Number which is the
-	// result of the dice roll
+	"toDiceNotation": ({count, sides}) => {
+		let diceNotation = `${count}d${sides}`;
+		return diceNotation;
+	},
+
+	"roll": (dice) => {
+		let count = dice.split("d")[0];
+		let sides = dice.split("d")[1];
+		let lowerBound = count;
+		let upperBound = sides * count;
+		return randomInt(lowerBound, upperBound);
+	}
+
 };

@@ -1,13 +1,11 @@
 "use strict";
 
-let [,, ...myArgs] = process.argv;
-
-module.exports = (myArgs) => {
-	if (myArgs) {
-		let [count, sides] = myArgs;
+module.exports = (args) => {
+	if (args) {
+		let [count, sides] = args;
 		const diceObj = { count, sides };
+		return diceObj;
 	} else {
 		console.log("something?");
 	}
-
 }
