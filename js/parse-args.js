@@ -7,7 +7,7 @@ module.exports = (myArgs) => {
 		let [count, sides] = myArgs;
 		const diceObj = { count, sides };
 	} else {
-		console.log("something");
+		console.log("something?");
 	}
 
 }
