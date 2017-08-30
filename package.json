@@ -1,0 +1,23 @@
+{
+  "name": "14-modularity-diceroll",
+  "version": "1.0.0",
+  "description": "# Modularity",
+  "main": "index.js",
+  "bin": {
+    "diceroll": "bin/diceroll"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megbrown/modularity-diceroll.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/megbrown/modularity-diceroll/issues"
+  },
+  "homepage": "https://github.com/megbrown/modularity-diceroll#readme"
+}
