@@ -4,7 +4,7 @@
   "description": "# Modularity",
   "main": "index.js",
   "bin": {
-    "diceroll": "bin/diceroll"
+    "diceroll": "./bin/diceroll"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
