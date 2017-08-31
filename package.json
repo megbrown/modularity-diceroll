@@ -7,7 +7,7 @@
     "diceroll": "./bin/diceroll"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --watch --recursive -R spec"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/megbrown/modularity-diceroll/issues"
   },
-  "homepage": "https://github.com/megbrown/modularity-diceroll#readme"
+  "homepage": "https://github.com/megbrown/modularity-diceroll#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
 }
