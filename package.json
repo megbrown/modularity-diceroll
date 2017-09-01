@@ -7,7 +7,7 @@
     "diceroll": "./bin/diceroll"
   },
   "scripts": {
-    "test": "mocha --watch --recursive -R spec"
+    "test": "mocha --watch --recursive -R nyan"
   },
   "repository": {
     "type": "git",

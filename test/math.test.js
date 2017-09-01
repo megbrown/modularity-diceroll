@@ -4,7 +4,7 @@ const randomInt = require('../js/math');
 describe("math", () => {
 	describe("math a function", () => {
 		it("should exist", () => {
-			isFunction(randomInt);
+			isFunction(randomInt());
 		});
 
 		it("should return an number", () => {
