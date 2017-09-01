@@ -2,6 +2,7 @@
 
 process.title = 'Dice Roll';
 
+//nested destructuring
 const { argv: [,, ...args] } = process;
 const { count, sides } = require('./parse-args')(args);
 const { roll, toDiceNotation } = require('./dice');
